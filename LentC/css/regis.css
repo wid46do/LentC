@@ -1,0 +1,84 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(../image/bgweb.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.container1{
+    display: flex;
+    border: none;
+    box-shadow: 0px 13px 22px -3px  #64DFDF;
+}
+.container1 img{
+    margin-right: 40px;
+}
+.logo{
+    width:132px;height:48px;
+    margin-left: 10px;
+}
+.navbar2{
+    display: flex;
+    position: absolute;
+    right: 0%;
+}
+.navbar2 a{
+    text-decoration: none;
+    color: whitesmoke;
+    font-style: oblique bold;
+    font-size: 15pt;
+    font-family: arial, sans-serif;
+    text-align: center;
+    margin-right: 40px;
+}
+.container2{
+    margin-top: 10px auto;
+    flex-direction: column;
+    align-content: center;
+    display: flex;
+    padding-left: 200px;
+}
+.container2 h1{
+    color: whitesmoke;
+    font-family: arial, sans-serif;
+    font-size: 70pt;
+}
+.container_child2-1{
+    align-content: center;
+}
+.container_child2-1 input{
+    border-radius: 40px;
+    width: 500px;
+    height: 35px;
+    font-size: 15pt;
+    font-family: arial, sans-serif;
+}
+.container_child2-1 button{
+    font-family: arial, sans-serif;
+    border-radius: 40px;
+    height: 40px;
+    width: 150px;
+    color: #6930C3;
+    background-color: #64DFDF;
+    border-color: #6930C3;
+    border-style: solid;
+    font-size: 15pt;
+    outline: none;
+}
+.container_child2-1 button:hover{
+    background-color: #6930C3;
+    color: whitesmoke;
+    box-shadow: -1px 1px 24px 4px #64DFDF;
+    border-color: whitesmoke;
+}
+.container_child2-1 input[type = "text"], .container_child2-1 input[type = "password"]{
+    outline: none; 
+}
+.container_child2-1 input[placeholder]{
+    padding-left: 30px;
+}
+@media(max-width: 900px){
+    .container2{
+        padding-left: 0px;
+    }
+}

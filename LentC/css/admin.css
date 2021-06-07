@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins', sans-serif;
+}
+.main{
+    display: flex;
+    height: calc(100%-66px);
+}
+.main .sidebar ul{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    color: white;
+}
+.main .sidebar ul li a{
+    padding: 18px;
+    display: block;
+    border-bottom: 1px solid #004044;
+}
+.main .sidebar ul li a:hover{
+    background: #004044;
+}
+.main .content{
+    flex: 8;
+    height: 600px;
+    padding: 40px 100px 100px;
+    overflow-y: scroll;
+}
+.atas{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+a{
+    text-decoration: none;
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 1.1rem;
+}
+th, td{
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #d3d3d3;
+}
+.tabel{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.tabel1{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 1300px;
+    height: 60px;
+    background-color: white;
+    margin-bottom: 40px;
+} 
+.tabel1 a{
+    margin-left: 40px;
+}
+.tabel1 form{
+    margin-right: 40px;
+}
+/* .tabel2{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    border-radius: 20px;
+    box-shadow: -1px 1px 20px 4px grey;
+    width: 1300px;
+    height: auto;
+    background-color: white;
+}
+tr{
+    align-items: center;
+} */
+.container1{ 
+    background-color: #64DFDF;
+    display: flex;
+    border: none;
+    box-shadow: 0px 13px 22px -3px  #64DFDF;
+}
+.container1 img{
+    margin-right: 40px;
+}
+.logo{
+    width:132px;height:48px;
+    margin-left: 10px;
+}
+.navbar2{
+    display: flex;
+    position: absolute;
+    right: 0%;
+}
+.navbar2 a{
+    text-decoration: none;
+    color: whitesmoke;
+    font-style: oblique bold;
+    font-size: 15pt;
+    font-family: arial, sans-serif;
+    text-align: center;
+    margin-right: 40px;
+}

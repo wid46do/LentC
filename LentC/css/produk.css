@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins', sans-serif;
+}
+.container1{
+    display: flex;
+    border: none;
+    box-shadow: 0px 13px 22px -3px  #64DFDF;
+}
+.container1 img{
+    margin-right: 40px;
+}
+.logo{
+    width:132px;height:48px;
+    margin-left: 50px;
+}
+.navbar2{
+    display: flex;
+    position: absolute;
+    right: 0%;
+}
+.navbar2 a{
+    text-decoration: none;
+    color: black;
+    font-style: oblique bold;
+    font-size: 15pt;
+    font-family: arial, sans-serif;
+    text-align: center;
+    margin-right: 40px;
+}
+.con3 { 
+    overflow: hidden; 
+    margin: 0px; 
+    font-family: 'poppins'; 
+    display: flex; 
+    flex-direction: column; 
+    align-items: flex-start; 
+    max-width:250px; 
+    border-radius: 10px; 
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2); 
+    margin:30px; 
+    align-items: center; 
+    border: 1px solid grey; 
+    height: 350px;
+} 
+.con3>h3{ 
+    color: black;
+    font-weight: bold; 
+    text-align: center; 
+    padding-top: 5px; 
+    margin: 0px; 
+} 
+.con3>h4{
+    color:black; 
+    margin: 0px;
+    padding-bottom: 10px;
+} 
+.con3>img{ 
+    width: 250px;
+    height: 250px;
+}
+a{
+    text-decoration: none;
+}
+.con2{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 100%;
+}
+footer {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+footer {
+    background-color:#24262b;
+    padding-top: 60px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.5;
+  }
+.bawah{
+    padding: 70px 0;
+  }
+.gambar2{
+    width:132px;height:48px;
+    margin-left: 60px;
+  }
+.container5{
+    max-width: 1170px;
+    margin: auto;
+}
+ul{
+    list-style: none;
+    padding: 0;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+.footer-col{
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    padding: 0 15px;
+}
+.footer-col h4{
+    font-size: 18pt;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+    font-weight: 500;
+    position: relative;
+}
+.footer-col h4::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    background-color: #64DFDF;
+    height: 2px;
+    box-sizing: border-box;
+    width: 50px;
+}
+.footer-col ul li:not(:last-child){
+    margin-bottom: 10px;
+}
+.footer-col ul li a{
+    font-size: 16px;text-transform: capitalize;
+    color: white;
+    text-decoration: none;
+    font-weight: 300;
+    color: #bbbbbb;
+    display: block;
+    transition: all 0.3s ease;
+}
+.footer-col ul li a:hover{
+    color: white;
+    padding-left: 8px;
+}

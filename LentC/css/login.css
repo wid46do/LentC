@@ -1,0 +1,76 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+.tengah{
+    justify-content: center;
+    display: flex;
+    margin-top: 30px;
+}
+.tengah img{
+    width:132px;height:48px;
+}
+a img{
+    width:132px;height:48px;
+}
+.background{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    background-image: linear-gradient( to bottom right, #80ffdb, #7400b8);
+}
+.box{
+    width: 350px;
+    padding: 50px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    background: white;
+    border: 1px solid;
+    border-radius: 10px;
+}
+.box h1{
+    text-align: left;
+    font-weight: 540;
+}
+.box input[type = "text"], .box input[type = "password"]{
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: left;
+    border: 1px solid;
+    padding: 10px 10px;
+    width: 250px;
+    outline: none;
+    border-radius: 5px;
+}
+.box button{
+    background: none;
+    outline: none;
+    border-radius: 5px;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    padding: 10px 10px;
+    width: 250px;
+    border: 1px solid;
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+}
+.pilihan{
+    display: flex;
+    justify-content: space-between;
+}
+.pilihan a{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 35px;
+    color: blue;
+    text-decoration: none;
+}
